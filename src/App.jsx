@@ -63,7 +63,7 @@ const App = () => {
               <div className="prof">
                 <p>🏢 Company: {company}</p>
                 <p>✍️ Bio: {bio}</p>
-                <p>🌍 Bio: {location}</p>
+                <p>🌍 Location: {location}</p>
               </div>
             </div>
             <img src={avatar_url} alt="userImage" className="userImage" />
