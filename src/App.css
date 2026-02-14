@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: calc(10px+2vmin);
+  text-align: center;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a645, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  font-family: poppins;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.formCard input {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, .6);
+  background-color: rgba(255, 255, 255, .6);
+  outline: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 8px;
+  color: white;
+  box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+  min-width: 520px;
+}
+
+.formCard button {
+  width: 200px;
+  height: auto;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 244, .6);
+  background-color: rgba(255, 255, 244, .4);
+  outline: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  font-size: 18px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+}
+
+
+.heading {
+  margin-bottom: 32px;
+}
+
+.userDetailsCard {
+  display: flex;
+  margin: 10px;
+  margin-top: 30px;
+  padding: 1rem;
+  background-color: rgba(255, 255, 244, .2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, .36);
+  backdrop-filter: blue(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, .18);
+}
+
+.userDetailsBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.userName {
+  font-size: 16px;
+
+}
+
+.followersContainer {
+  display: flex;
+  margin-top: 8px 0;
+  font-size: 14px;
+  gap: 10px;
+}
+.reposText{
+  font-size: 14px;
+}
+
+.prof {
+  font-size: 16px;
+  margin-top: 12px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.userImage{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, .6);
+  background-color: 1px solid rgba(255, 255, 255, .6);
+  box-shadow: 0 0 6px rgba(0, 0, 0, .2);
+}
+.loader{
+  margin-top: 60px;
+  color: white;
+}
