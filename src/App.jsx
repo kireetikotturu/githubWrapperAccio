@@ -31,6 +31,7 @@ const App = () => {
     company,
     bio,
     avatar_url,
+    location,
     public_repos,
   } = userInfo || {};
   return (
@@ -62,6 +63,7 @@ const App = () => {
               <div className="prof">
                 <p>🏢 Company: {company}</p>
                 <p>✍️ Bio: {bio}</p>
+                <p>🌍 Bio: {location}</p>
               </div>
             </div>
             <img src={avatar_url} alt="userImage" className="userImage" />
